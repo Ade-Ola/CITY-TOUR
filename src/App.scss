@@ -1,14 +1,30 @@
 
 
-  $mainBlack:#222;
-  $mainGreen:#82b340;
-  $mainWhite:#fff;
-  $mainGrey:#ececec;
-  
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+$mainBlack:#222;
+$mainGreen:#82b340;
+$mainWhite:#fff;
+$mainGrey:#ececec;
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  color: $mainBlack;
+}
+
 
 .info-container{
+  align-self: center;
+  width: 70%;
   background: $mainGrey;
-  margin: 2rem 0;
+  margin: 2rem auto;
+
+
+ 
 
 img{
   width: 100%;
